@@ -1,0 +1,61 @@
+<h1 class="header1">Big Boi Burgers!</h1>
+
+<div id="burgerimage">
+    <img src="https://media2.giphy.com/media/2P8Rqg3cWQ4YE/source.gif" alt="big patty boi">
+</div>
+
+
+<div id="containerb">
+    <h2 id="noDev">Burgers that have not been devoured!</h2>
+
+    <ul>
+        {{#each burgers}}
+        {{#unless devoured}}
+        <li>
+            {{name}}
+
+            <button class="change-devoured" data-id="{{id}}" data-newdevoured="true">
+                EAT ME!
+            </button>
+
+            <button class="delete-burger" data-id="{{this.id}}">DELETE!</button>
+        </li> 
+        {{/unless}}
+        {{/each}}
+    </ul>
+
+    <h2 id="yesDev">Burgers that have been devoured!</h2>
+
+    <ul>
+        {{#each burgers}}
+        {{#if devoured}}
+        <li>
+            {{name}}
+
+            <button class="change-devoured" data-id="{{id}}" data-newdevoured="false">
+                MAKE ME ANOTHER!
+            </button>
+
+            <button class="delete-burger" data-id="{{this.id}}">DELETE!</button>
+        </li> 
+        {{/if}}
+        {{/each}}
+    </ul>
+
+    <h2 id="addB">Add a Burger</h2>
+    <form class="create-form">
+
+        <div class="form-group">
+            <label for="ca">Burger Name:</label>
+            <input type="text" id="ca" name="name">
+        </div>
+
+        <div class="form-group">
+            <label for="devoured"></label><br>
+            <input type='radio' name='devoured' value='1' checked>Devoured!<br>
+            <input type="radio" name='devoured' value='0'>Burger
+        </div>
+
+        <button id="submitButton" type='submit'>Add Burger</button>
+</div>
+</form>

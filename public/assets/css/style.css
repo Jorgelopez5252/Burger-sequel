@@ -1,0 +1,128 @@
+li {
+  padding: 5px;
+  margin: 5px;
+  background: gray;
+}
+
+#burgerimage {
+  margin-left: 33%;
+  margin-right: 33%;
+  
+
+}
+
+body {
+  background-image: url('https://media1.giphy.com/media/3ohjUObkKl8CyTFYf6/giphy.gif?cid=790b7611802dde072e7ec0b27405cfaa5499915f7fc41322&rid=giphy.gif');
+
+}
+.change-devoured{
+  background-color: #f4511e;
+  border: none;
+  color: white;
+  padding: 10px 25px;
+  text-align: center;
+  font-size: 16px;
+  margin: 4px 2px;
+  display: inline-block;
+  text-decoration: none;
+  cursor: pointer;
+  border-radius: 8px;
+}
+
+.delete-burger{
+  background-color: #f4511e;
+  border: none;
+  color: white;
+  padding: 10px 25px;
+  text-align: center;
+  font-size: 16px;
+  margin: 4px 2px;
+  display: inline-block;
+  text-decoration: none;
+  cursor: pointer;
+  border-radius: 8px;
+}
+
+
+.header1 {
+  font-family: Arial, Helvetica, sans-serif;
+  font-size: 80px;
+  font: outline;
+  font-family: 'Racing Sans One', cursive;
+  text-align: center;
+  color: orange;
+}
+
+#noDev{
+  font-family: 'Racing Sans One', cursive;
+  text-align: center;
+}
+
+#yesDev{
+  font-family: 'Racing Sans One', cursive;
+  text-align: center;
+}
+#addB{
+  font-family: 'Racing Sans One', cursive;
+  text-align: center;
+  
+}
+label{
+  
+}
+
+#submitButton{
+  margin-left: 30%;
+  margin-right: 30%;
+  background-color: #f4511e;
+  border: none;
+  color: white;
+  padding: 10px 25px;
+  text-align: center;
+  font-size: 16px;
+  margin: 4px 2px;
+  display: inline-block;
+  text-decoration: none;
+  cursor: pointer;
+  border-radius: 8px;
+}
+.create-form{
+  text-align: center;
+}
+#containerb{
+  background-color: orange;
+  margin-left: 90px;
+  margin-right: 90px;
+  margin-bottom: 80px;
+  border-radius: 8px;
+  box-shadow: black;
+  box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
+
+}
+
+.label {
+  font-weight: bold;
+}
+
+.create-update-form {
+  padding: 5px;
+  margin: 5px;
+  background: aqua;
+}
+
+.form-group {
+  margin-bottom: 5px;
+}
+
+#header {
+  font-size: large;
+  color: green;
+}
+
+li{
+  margin-left: 30%;
+  margin-right: 30%;
+  background-color: palevioletred;
+  border-radius: 8px;
+  /* text-align: center; */
+}
